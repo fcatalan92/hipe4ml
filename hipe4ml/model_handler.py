@@ -440,4 +440,4 @@ class ModelHandler:
         self.model_params = loaded_model.get_model_params()
         self.model.set_params(**self.model_params)
         self.model_string = loaded_model.get_model_module()
-        self._n_classes = loaded_model.get_n_classes()
+        #self._n_classes = loaded_model.get_n_classes()
